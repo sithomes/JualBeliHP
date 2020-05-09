@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_margin="5dp"
     android:id="@+id/scrollView1"
-    tools:context=".DetailHanphone">
+    tools:context=".DetailHandphone">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +26,9 @@
             android:layout_marginBottom="30dp"
             android:ems="10"
             android:enabled="false"
-            android:hint="@string/hint_nama" />
+            android:hint="@string/hint_nama"
+            android:inputType="textPersonName"
+            android:text="Name" />
 
         <TextView
             android:id="@+id/textView4"
@@ -41,7 +43,9 @@
             android:ems="10"
             android:hint="@string/hint_harga"
             android:inputType="textPersonName"
+            android:text="Name"
             android:enabled="false"
-            android:layout_marginBottom="30dp"/>
+            android:layout_marginBottom="30dp"
+            />
     </LinearLayout>
 </ScrollView>
